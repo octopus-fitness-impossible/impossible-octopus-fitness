@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* our code : */
+
+
+body{
+	 background-color: #f5f8f9;
+}
+
+.container {
+	width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 992px;
+}
+
+li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #e63e33;
+}
+
+a:hover{
+	transition: all 2s ease-in;
+	moz-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+	text-decoration: underline;
+	background-color:#e63e33;
+	color:white;
+}
+
+a:link{
+	transition: all 2s ease-in;
+	moz-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+	text-decoration: underline;
+	color:#e63e33;
+	text-decoration: none;
+}
+
+
+nav{
+	overflow: hidden;
+	margin-right: 250px;
+}
+
+.menu{
+	float: right;
+	padding: 5px;
+    
+    border: 1px solid e2e8ed;
+    margin: 3px;
+    color: #ffffff;
+    border-radius: 5px;
+    background: #575a62;
+    background: -webkit-linear-gradient(#575a62, #dedfe3);
+    background: -o-linear-gradient(#575a62, #dedfe3);  
+    background: -moz-linear-gradient(#575a62, #dedfe3); 
+    background: linear-gradient(#575a62, #dedfe3); 
+}
+.menu:hover{
+
+	background: #dedfe3;
+    background: -webkit-linear-gradient(#dedfe3, #575a62);
+    background: -o-linear-gradient(#dedfe3, #575a62);  
+    background: -moz-linear-gradient(#dedfe3, #575a62); 
+    background: linear-gradient(#dedfe3, #575a62); 
+}
+.menu:active{
+	background: #575a62;
+}
+
+button:focus {
+	outline:0;
+}
+
+#column0{
+		float:left; 
+		 width:18%;
+		 display: block;
+		 margin-right: 15px;
+		 
+}
+
+
+#column1{
+	    float:left; 
+	    margin:0; 
+	    width:58%; 
+	    display: block;
+}
+
+#column2{
+		 float:left;
+		 width:18%;"
+		 display: block;
+		 margin-left: 15px;
+		
+		
+} 
+#column4{
+	float:left; 
+		 width:78%;
+		 display: block;
+		 margin-left: 15px;
+}
+
+.main-box{
+		 background-color: #ffffff;
+		 border: 1px solid #e2e8ed;
+		 margin-top: 10px;
+		 display: block; 
+		border-radius: 5px;
+		padding: 5px;
+		color: #6f747d;
+		  overflow: hidden;
+}
+
+.list{
+	     
+		  float:left; 
+		  width:30%;
+		  margin-left: 2px;
+		  margin-right: 2px;
+}
+
+
+.photo {
+	float: left;
+	height: 60px;
+	padding-right: 10px;
+} 
+
+.octopus {
+	float: left;
+	padding-right: 10px;
+} 
+
+.name{
+	font-weight: bold;
+}
+
+.statusphoto {
+	height: 167px;
+} 
+
+.usertofollow{
+	overflow: hidden;
+	margin: 5px;
+	padding: 3px;
+}
+
+.welcome {
+	position:fixed;
+     bottom:0;
+     right:0; 
+     color:white;
+     background-color: #9297a4;
+      padding: 4px;
+      border-radius: 2px;
+
+}
+
+
